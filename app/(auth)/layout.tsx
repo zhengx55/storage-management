@@ -27,6 +27,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
             src="/assets/images/files.png"
             alt="Files"
             width={342}
+            priority
             height={342}
             className="transition-all hover:rotate-2 hover:scale-105"
           />
