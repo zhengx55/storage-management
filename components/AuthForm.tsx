@@ -57,7 +57,7 @@ const AuthForm = ({ type }: { type: FormType }) => {
               email: values.email,
             })
           : await signInUser({ email: values.email });
-
+      console.log(user);
       setAccountId(user.accountId);
     } catch {
       setErrorMessage("Failed to create account. Please try again.");
@@ -104,7 +104,6 @@ const AuthForm = ({ type }: { type: FormType }) => {
               <FormItem>
                 <div className="shad-form-item">
                   <FormLabel className="shad-form-label">Email</FormLabel>
-
                   <FormControl>
                     <Input
                       placeholder="Enter your email"
@@ -113,12 +112,10 @@ const AuthForm = ({ type }: { type: FormType }) => {
                     />
                   </FormControl>
                 </div>
-
                 <FormMessage className="shad-form-message" />
               </FormItem>
             )}
           />
-
           <Button
             type="submit"
             className="form-submit-button"

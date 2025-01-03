@@ -392,7 +392,7 @@
 
   /* Header */
   .header {
-    @apply hidden items-center justify-between gap-5 p-5 sm:flex lg:py-7 xl:gap-10 !important;
+    @apply hidden items-center justify-between gap-5 sm:flex pr-5 py-5 lg:py-7 xl:gap-10 !important;
   }
 
   .header-wrapper {
@@ -468,7 +468,7 @@
   }
 
   .sidebar-nav-item {
-    @apply flex text-light-100 gap-4 rounded-xl lg:w-full justify-center lg:justify-start items-center h5 lg:px-[30px] h-[52px] lg:rounded-full !important;
+    @apply flex text-light-100 hover:text-white hover:bg-teal-400/50 gap-4 rounded-xl lg:w-full justify-center lg:justify-start items-center h5 lg:px-[30px] h-[52px] lg:rounded-full !important;
   }
 
   .sidebar-user-info {
