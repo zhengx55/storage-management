@@ -54,6 +54,7 @@
   .recharts-responsive-container {
     height: initial !important;
   }
+
   :root {
     --radius: 0.5rem;
   }
@@ -99,7 +100,7 @@
   }
 
   .button {
-    @apply text-[14px] leading-[20px] font-medium;
+    @apply text-[16px] leading-[20px] font-semibold;
   }
 
   .caption {

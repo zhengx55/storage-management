@@ -15,9 +15,12 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
           />
 
           <div className="space-y-5 text-white">
-            <h1 className="h1">Manage your files the best way</h1>
-            <p className="body-1">
-              This is a place where you can store all your documents.
+            <h1 className="text-center text-3xl font-bold">
+              Effortlessly Organize and Access Your Documents
+            </h1>
+            <p className="body-1 text-center">
+              Welcome to your centralized hub for secure document storage and
+              seamless file management.
             </p>
           </div>
           <Image

@@ -10,16 +10,16 @@ import {
   AlertDialogTitle,
 } from "@/components/ui/alert-dialog";
 
-import { Button } from "@/components/ui/button";
 import {
   InputOTP,
   InputOTPGroup,
   InputOTPSlot,
 } from "@/components/ui/input-otp";
-// import { sendEmailOTP, verifySecret } from "@/lib/actions/user.actions";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
 import React, { useState } from "react";
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import { verifySecret, sendEmailOTP } from "@/lib/actions/user.actions";
+import { useRouter } from "next/navigation";
 
 const OtpModal = ({
   accountId,
